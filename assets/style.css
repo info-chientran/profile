@@ -26,13 +26,14 @@ html {
 
 .logo{
     font-weight: bold;
+    text-decoration: none;
     font-size: 25px;
     line-height: 37px;
     letter-spacing: 0.205em;
     color: #002265;
     margin: 42px 10px;
 }
-.logo #and{
+.logo .and{
     font-weight: 300;
     color: #14279B;
 }

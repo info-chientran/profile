@@ -4,12 +4,6 @@
     --blue:#002265;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 html {
     font-family: 'Poppins', Arial, sans-serif;
     scroll-behavior: smooth;
@@ -119,6 +113,6 @@ html {
     width: 500px;
     height: 468px;
     top: 160px;
-    left: 796px;
+    right: 134px;
     position: fixed;
 }

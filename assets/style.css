@@ -75,7 +75,7 @@ body {
 
 .banner {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     padding-top: 40px;
 }
 
@@ -186,6 +186,7 @@ body {
 
 .portfolio {
     margin-top: 118px;
+    text-align: center;
 }
 
 .portfolio-heading {
@@ -193,7 +194,6 @@ body {
     line-height: 52px;
     color: var(--blue200);
     letter-spacing: 0.185em;
-    text-align: center;
 }
 
 .port {
@@ -202,27 +202,20 @@ body {
 }
 
 .portfolio-image {
-    align-items: center;
     display: flex;
     margin-top: 75px;
+    justify-content: space-between;
 }
 
-.image-pay {
-    width: 500px;
-    height: 358px;
+.portfolio-image img {
+    width: 560px;
+    height: 428px;
     box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
     border-radius: 12px;
-    padding: 30px;
 }
 
-.image-learn {
-    width: 500px;
-    height: 358px;
-    box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
-    border-radius: 12px;
-    padding: 30px;
-    position: relative;
-    left: 140px;
+.image-sendpay {
+    margin-right: 140px;
 }
 
 
@@ -230,6 +223,7 @@ body {
 
 .social {
     margin-top: 118px;
+    text-align: center;
 }
 
 .social-heading {
@@ -237,7 +231,11 @@ body {
     line-height: 52px;
     color: var(--blue200);
     letter-spacing: 0.055em;
-    text-align: center;
+}
+
+.heading-me {
+    color: var(--blue100);
+    font-weight: bold;
 }
 
 .social-icon {
@@ -251,24 +249,19 @@ body {
 
 .social-cap {
     color: #3F3D56;
-    text-align: center;
     margin-top: 30px;
     font-size: 35px;
     line-height: 52px;
-}
-
-.me {
-    color: var(--blue100);
-    font-weight: bold;
 }
 
 
 /* Footer */
 
 .name-footer {
-    padding-top: 200px;
-    max-width: 100%;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
 }
 
 .name-footer span {
@@ -276,15 +269,9 @@ body {
     font-size: 35px;
     line-height: 52px;
     color: white;
-    top: 110%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 230px;
 }
 
 .name-footer img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
+    max-width: 1440px;
 }

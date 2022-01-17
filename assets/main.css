@@ -137,30 +137,22 @@ body {
 
 .passtions-image {
     align-items: center;
+    text-align: center;
     display: flex;
     margin-top: 75px;
 }
 
-.passtions-image {
-    text-align: center;
-}
-
 .image-fe {
-    width: 500px;
-    height: 358px;
-    box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
-    border-radius: 12px;
-    padding: 30px;
+    margin-right: 140px;
 }
 
+.image-fe,
 .image-ui {
     width: 500px;
     height: 358px;
     box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
     border-radius: 12px;
     padding: 30px;
-    position: relative;
-    left: 140px;
 }
 
 .image-cap {
